@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Univer.Domain.Common
 {
-    public class Auditable
+    public abstract class Auditable
     {
         public int Id { get; set; }
-        public int MyProperty { get; set; }
     }
 }
